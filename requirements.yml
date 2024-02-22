@@ -1,0 +1,12 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.8.17
+  - tensorflow=2.10.0
+  - keras=2.10.0
+  - jupyter=1.0.0
+  - scikit-learn=0.24.2
+  - pip
+  - pip:
+    - gradio

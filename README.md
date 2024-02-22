@@ -1,3 +1,4 @@
+
 # Deep Learning for Paintings Authorship Prediction
 
 Artificial intelligence techniques, particularly deep learning networks, have found widespread application in addressing various computational vision challenges. Motivated by the potential of neural networks to discern patterns in images, I endeavored to create a deep learning model aimed at identifying the authors of renowned paintings.
@@ -32,9 +33,7 @@ This project follows a structured organization to facilitate clarity and collabo
 
 - **`README.md`:** Project overview, instructions, and explanations.
 
-Feel free to modify the structure based on the specific needs of your machine learning project.
-
-
+Feel free to modify the structure based on the specific needs of your machine learning project. 
 ## Installation
 
 To install this project run
@@ -64,7 +63,7 @@ Complete Installation: Click the "Install" button to begin the installation.
 After installation, you can open Command Prompt and check if Miniconda installed correctly. Run the following command:
 
 ```bash
-conda -- version
+  conda -- version
 ```
 
 If Miniconda was installed successfully, you will see the version of Conda installed. Once this is done, we will create a virtual environment to manage the packages that our program needs to run.
@@ -90,15 +89,15 @@ In the command prompt window, type “cd” (with a space after cd) and right-cl
 In Command Prompt, run the following command to create the virtual environment from the requirements.yml file.
 
 ```bash
-conda create --name myenv --file requirements.yml
-```
+  conda create --name myenv --file requirements.yml
+``` 
 
 #### Activate the Virtual Environment:
 
 After creating the virtual environment, you need to activate it. Use the following command:
 
 ```bash
-conda activate myenv
+  conda activate myenv
 ```
 
 Now you have a virtual environment created and activated in Miniconda. If you don't want to activate the virtual environment every time you start a Jupyter Notebook, run the following command:
@@ -106,7 +105,7 @@ Now you have a virtual environment created and activated in Miniconda. If you do
 #### Install ipykernel:
 
 ```bash
-conda install ipykernel
+  conda install ipykernel
 ```
 
 #### Create a custom kernel:
@@ -114,7 +113,7 @@ conda install ipykernel
 While your virtual environment is active, run the following command to create a custom Jupyter kernel associated with your environment:
 
 ```bash
-python -m ipykernel install --user --name myenv --display-name "My custom name"
+  python -m ipykernel install --user --name myenv --display-name "My custom name"
 ```
 
 ### Step 3: Launch Jupyter Notebook:
@@ -122,7 +121,7 @@ python -m ipykernel install --user --name myenv --display-name "My custom name"
 After creating the custom kernel, you can launch Jupyter Notebook. Run the command:
 
 ```bash
-jupyter notebook
+  jupyter notebook
 ```
 
 ## License
@@ -137,3 +136,4 @@ jupyter notebook
 
 ## 🚀 About Me
 I am particularly enthusiastic about developing data-driven solutions and integrating them with SE best practices to create efficient and scalable systems. Having worked in diverse environments, including finance and oil & gas sectors in Colombia and Brazil, I have improved my skills in adapting to different industry requirements and ensuring the delivery of high-quality software solutions.
+
